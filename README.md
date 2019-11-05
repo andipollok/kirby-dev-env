@@ -1,6 +1,6 @@
 # Kirby Dev Env
 
-A development environment for Kirby using BrowserSync. It runs a PHP browser locally and reloads when you make any changes to your code.
+A development environment for [Kirby](http://getkirby.com) using [BrowserSync](https://www.browsersync.io/). It runs a PHP browser locally and reloads when you make any changes to your code.
 
  - Run a server locally from your command line
  - Upload your page with FTP from your command line
@@ -18,10 +18,15 @@ Download [Kirby](http://getkirby.com) and put it in the same directory.
 
 `gulp dev`
 
-Opens a browser with the website for local development. Browsersync automatically reloads if you make changes.
+Opens a browser with the website for local development. BrowserSync automatically reloads if you make changes to:
 
-## Deploy
+ - `/assets` (CSS files, JS files, etc)
+ - `/content` (Kirby content files)
+ - `/site` (Kirby templates, snippets, plugins, etc).
+
+
+## Publish
 
 `gulp publish`
 
-Uploads the site to your FTP server. Settings are in `.env` (duplicate and rename `.env.template` to enter your FTP server settings)
+Uploads the site to your FTP server. FTP settings are in `.env`.
