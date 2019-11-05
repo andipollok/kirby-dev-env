@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+
+# Dependency directory
+node_modules
+
+# Users Environment Variables
+.env
+.lock-wscript
+
+# Garbage files
+.DS_Store
+
+
+# Kirby
+
+# Temporary files
+# ---------------
+
+/media/*
+!/media/index.html
+
+# -------------SECURITY-------------
+# NEVER publish these files via Git!
+# -------------SECURITY-------------
+
+# Cache Files
+# ---------------
+
+/site/cache/*
+!/site/cache/index.html
+
+# Accounts
+# ---------------
+
+/site/accounts/*
+!/site/accounts/index.html
+
+# Sessions
+# ---------------
+
+/site/sessions/*
+!/site/sessions/index.html
+
+# License
+# ---------------
+/site/config/.license
