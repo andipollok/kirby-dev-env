@@ -31,4 +31,4 @@ Opens a browser with the website for local development. BrowserSync automaticall
 
 Run `gulp publish` from your command line in the project folder
 
-Uploads the site to your FTP server. FTP settings are in `.env`.
+Uploads the site to your FTP server. FTP settings are stored in `.env`. Rename `.env.template` to `.env` and change settings there.
