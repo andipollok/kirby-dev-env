@@ -15,9 +15,10 @@ Just 2 steps:
 Run `npm install` from your command line in the project folder
 
 - Download [Kirby](https://getkirby.com/try) and put it in the same directory.  
-:exclamation: There will be one issue: the files `README.md` (this file) and `.gitignore` also exist in the Kirby installation. Don't overwrite these files with the ones from Kirby, as the .gitignore contains everything Kirby needs but also `node_modules` (if anyone knows a better solution, let me know!)
+:warning: There will be one issue: the files `README.md` (this file) and `.gitignore` also exist in the Kirby installation. Don't overwrite these files with the ones from Kirby, as the .gitignore contains everything Kirby needs but also `node_modules` (if anyone knows a better solution, let me know!)
 
-- Ok, 3 steps: rename the file `.env.template` to `.env`. If you can't see it in Finder: it's a hidden file. Press *Command+Shift+Dot* in Finder to show hidden files.
+- Ok, 3 steps: rename the file `.env.template` to `.env`.  
+:warning: If you can't see it in Finder: it's a hidden file. Press *Command+Shift+Dot* in Finder to show hidden files.
 
 
 ## Dev environment
