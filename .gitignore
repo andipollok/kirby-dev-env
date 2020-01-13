@@ -9,17 +9,24 @@ node_modules
 .env
 .lock-wscript
 
-# Garbage files
+
+# .gitignore from Kirby
+
+# System files
+# ------------
+
+Icon
 .DS_Store
-
-
-# Kirby
 
 # Temporary files
 # ---------------
 
 /media/*
 !/media/index.html
+
+# Lock files
+# ---------------
+.lock
 
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
