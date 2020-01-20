@@ -51,4 +51,6 @@ I'd like to include:
 
 - Make it easier to install, so you don't have to download Kirby manually
 
+- Maybe use [GitHub Actions](https://github.com/features/actions) to automate build & deployment?
+
 - :bulb: Other ideas?
