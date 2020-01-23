@@ -7,9 +7,10 @@ const log = require('fancy-log');
 
 require('dotenv').config();
 
-var localFiles = [
+var localFilesToUpload = [
 	'index.php',
   '.htaccess',
+  './kirby/**/*', /* You can comment this out after the first upload, as this folder contains Kirby itself */
   './assets/**/*',
   './content/**/*',
   './site/**/*',
@@ -63,7 +64,7 @@ function connect(){
 
 function publish() {
      var conn = connect();
-     return gulp.src(localFiles, {base: '.', buffer: false})
+     return gulp.src(localFilesToUpload, {base: '.', buffer: false})
                 .pipe(conn.newer(process.env.FTP_DIRECTORY))
                 .pipe(conn.dest(process.env.FTP_DIRECTORY))
 }
